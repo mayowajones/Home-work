@@ -29,7 +29,7 @@ h3{
 }
 
 h3 i{
-    color: #00a2ff;
+    color: #ff0077;
 }
 
 
@@ -46,7 +46,7 @@ li{
 }
 
 li:hover{
-    color: #00a2ff;
+    color: #ff0077;
     cursor: pointer;
 }
 
@@ -104,14 +104,14 @@ li:hover{
 }
 
 span{
-    color: #00a2ff;
+    color: #ff0000;
     font-weight: 600;
     font-size: 34px;
 }
 
 
 .main1{
-    background-color: #33c9ff;
+    background-color: #33ff8f;
 }
 
 .cont-0{
@@ -123,7 +123,7 @@ span{
 
 .item01 h1{
     margin-top: 20px;
-    color: #000;
+    color: #000000;
     font-size: 45px;
     font-weight: 600;
 }
