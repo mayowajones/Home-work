@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <body>
+</head>
+    <a href="getresponse.html" target="_blank"> Assignment1 (Getresponse website)</a>
+    <a href="supreme-tech.html">Assignment 2 (Tourism website)</a>
+    <a href="appclick.html"> Assignment 3 (appclick website)</a>
+<a href="assignment4.html"> Assignment 4(array website)</a>
+
+    <script>
+     // To create array of 10 number
+// const numbers = [ 2,4,6,8,10,12,14,16,18,20];
+
+// Using map() to double each number
+const doubledNumbers = numbers.map(function(number) {
+  return number * 2;
+});
+
+// Result
+console.log("Original Array:", numbers);
+console.log("Doubled Array:", doubledNumbers);
+//Question 2
+let StudentScores=[45,67,89,34,90,76,54];
+const Studentscores=[45,67,89,34,90,76,54];
+const passingScore=StudentScores.filter(score=>score>60);
+console.log("passing scores: ", passingScore);
+console.log('Total students:  ${StudentScores.length}');
+console.log('Students Failed:  ${Studentscores.length -passingScore.length}');
+
+//Question 3
+scores=[ 45,67,89,34,90,76,54];
+const totalSum=score.reduce((accumulator,currrent)=>accumulator+currrent, 0);
+const average=totalSum/Score.length;
+console.log('Totalsum:  &{totalsum}');
+//Total sum:454
+//Question 4
+const studentScores = [45, 67, 89, 34, 90, 76, 54];
+
+//  Step 2: Use filter() to return only scores greater than 60
+const passingScores = studentScores.filter(score => score > 60);
+
+//  Display the results
+console.log("All Scores:     ", studentScores);
+console.log("Scores Above 60:", passingScores);
+
+//Question 5.
+const fruits = ['apple', 'banana', 'mango', 'orange', 'pear'];
+
+console.log("Before splice():", fruits);
+// Output: ['apple', 'banana', 'mango', 'orange', 'pear']
+
+//  Remove 'mango' at index 2, insert 'grapes'
+const removedItem = fruits.splice(2, 1, 'grapes');
+
+console.log("Removed Item:", removedItem);
+Output: ['mango']  // ← splice() returns the removed element(s)
+Output: ['apple', 'banana', 'grapes', 'orange', 'pear']
+//Question 6
+ const scores = [55, 72, 85, 90, 78, 88, 76, 95, 89, 84];
+
+//  Find first score greater than 90
+console.log(scores.find(score => score > 90));    95
+
+// Find first score less than 60
+console.log(scores.find(score => score < 60));    55
+
+// Find first perfect-like score (95 or above)
+console.log(scores.find(score => score >= 95));   95
+
+// Find first failing score (below 70)
+console.log(scores.find(score => score < 70));    55
+
+// Find score that doesn't exist
+console.log(scores.find(score => score > 
+
+100));  // undefined
+
+7
+const Fruits = ['apple', 'banana', 'mango', 'orange', 'pear'];
+fruits.forEach((fruit,index,array) => {
+    console.log(index$ ,{index} , fruit, "toUpperCase()");
+});
+
+Output:
+APPLE
+BANANA
+MANGO
+ORANGE
+
+PEAR
+
+ 8.
+
+ const names = ['John', 'Jane', 'Mark', 'Mary'];
+   console.log("Names Array:", names);
+Output: ['John', 'Jane', 'Mark', 'Mary']
+const result = names.includes('Mark');
+
+ console.log("Does 'Mark' exist?", result);
+ // Output: Does 'Mark' exist? true
+
+ // Using in an if/else statement
+if (names.includes('Mark')); 
+
+// 9.
+
+const numbers = [42, 15, 7, 93, 28, 64, 3, 51, 76, 19];
+
+console.log("Before sort():", numbers);
+ Output: [42, 15, 7, 93, 28, 64, 3, 51, 76, 19]
+
+//Sort from smallest to largest (Ascending)
+ const sortedNumbers = numbers.sort((a, b) => a - b);
+
+ console.log("After sort() — Smallest to Largest:");
+console.log(sortedNumbers);
+//  Output: [3, 7, 15, 19, 28, 42, 51, 64, 76, 93]
+ const colors1=['red', 'blue'];
+ const colors2=['green', 'yellow'];
+const combinedcolors=colors1.concat(colors2);
+ console.log(combinedcolors);
+
+    </script>
+    
+</body>
+</html>
+    
+   
